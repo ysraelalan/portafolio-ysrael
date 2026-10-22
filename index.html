@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de Ysrael Mendoza Maldonado: diseño gráfico, arquitectura, fotografía, patrimonio y docencia.">
+  <title>Ysrael Alan Mendoza Maldonado — Index</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="cabecera-sitio" id="inicio">
+    <a class="marca marca-completa logotipo-marca" href="index.html" aria-label="Ysrael Alan Mendoza Maldonado, inicio"><img src="logo-ysrael.svg" alt="Ysrael Alan Mendoza Maldonado"></a>
+    <button class="alternar-menu" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir navegación"><span></span><span></span></button>
+    <nav class="navegacion-principal" id="main-nav" aria-label="Navegación principal"><a href="index.html" aria-current="page">Inicio</a><a href="trabajo.html">Trabajo</a><a href="galeria.html">Galería</a><a href="perfil.html">Perfil</a><a href="trayectoria.html">Trayectoria</a><a href="contacto.html">Contacto</a></nav>
+  </header>
+  <main>
+<!-- INICIO: imagen de apertura y mensaje profesional -->
+    <section class="portada" aria-labelledby="hero-title">
+      <div class="foto-portada"></div>
+      <div class="sombra-portada"></div>
+      <div class="contenido-portada">
+        <p class="antetitulo">Diseño gráfico · Ilustración · Fotografía</p>
+        
+        <h1 id="hero-title" class="lema-portada portada-iconica">Diseño de autor.<br><em>Forma con memoria.</em></h1>
+        <p class="introduccion-portada introduccion-mono-capital"><i>A través de la imagen, la forma y el lenguaje visual, puedo diseñar y construir sistemas de comunicación que transformen ideas en experiencias, integrando identidad, narrativa, tecnología y materia.</i></p>
+        <a class="enlace-portada" href="trabajo.html"><span>Explorar proyectos</span><b>↘</b></a>
+      </div>
+      <div class="base-portada"><span>Portafolio · La Paz, Bolivia</span><span>Comunicación / Diseño gráfico / Imagen</span></div>
+    </section>
+<!-- CINTA INFINITA DE ESPECIALIDADES -->
+    <section class="cinta-especialidades" aria-label="Especialidades profesionales">
+      <div class="pista-cinta">
+        <div class="grupo-cinta">
+          <span>Diseño gráfico</span><i>✳</i><span>Diseño editorial</span><i>✳</i><span>Infografía</span><i>✳</i><span>Diseño web</span><i>✳</i><span>Diseño tipográfico</span><i>✳</i><span>Diseño de marca</span><i>✳</i><span>Ilustración</span><i>✳</i><span>Fotografía</span><i>✳</i><span>Edición de video</span><i>✳</i><span>Sistemas de impresión</span><i>✳</i>
+        </div>
+        <div class="grupo-cinta" aria-hidden="true">
+          <span>Diseño gráfico</span><i>✳</i><span>Diseño editorial</span><i>✳</i><span>Infografía</span><i>✳</i><span>Diseño web</span><i>✳</i><span>Diseño tipográfico</span><i>✳</i><span>Diseño de marca</span><i>✳</i><span>Ilustración</span><i>✳</i><span>Fotografía</span><i>✳</i><span>Edición de video</span><i>✳</i><span>Sistemas de impresión</span><i>✳</i>
+        </div>
+      </div>
+    </section>
+
+<!-- TRABAJO: proyectos documentados en la hoja de vida. Las imágenes son referencias temporales. -->
+    <section class="seccion-trabajo contenedor-seccion trabajo-inicio" id="trabajo">
+      <div class="parte-superior-seccion">
+        <div><p class="antetitulo">01 / Selección de proyectos</p><h2>Trabajo <em>seleccionado.</em></h2></div>
+        <p class="introduccion-seccion introduccion-mono-capital"><i>Diseñar es observar, interpretar y dar forma a la memoria. Una práctica que cruza imagen, territorio y cultura para construir narrativas visuales con identidad y propósito.</i></p>
+      </div>
+      <!--<div class="filtros" role="group" aria-label="Filtrar proyectos">
+        <button class="boton-filtro activo" data-filter="todos" aria-pressed="true">Todos <span>05</span></button>
+        <button class="boton-filtro" data-filter="editorial" aria-pressed="false">Diseño editorial</button>
+        <button class="boton-filtro" data-filter="infografia" aria-pressed="false">Infografía</button>
+        <button class="boton-filtro" data-filter="marca" aria-pressed="false">Diseño de marca</button>
+        <button class="boton-filtro" data-filter="video" aria-pressed="false">Edición de video</button>
+        <button class="boton-filtro" data-filter="fotografia" aria-pressed="false">Fotografía</button>
+      </div>-->
+      <div class="rejilla-proyectos">
+        <article class="tarjeta-proyecto proyecto-destacado" data-category="editorial fotografia">
+          <a class="imagen-proyecto imagen-editorial" href="#proyecto-1" data-project-modal="0" aria-haspopup="dialog" aria-label="Leer reseña de publicaciones de patrimonio">
+            <img src="imagenes/proyecto-1.jpeg" alt="Libros y material editorial, imagen referencial" loading="lazy">
+            <span class="imagen-indice">01 / DISEÑO EDITORIAL</span><span class="imagen-nota">Proceso de diseño</span>
+            <span class="titulo-imagen">Memoria<br><em>impresa.</em></span>
+          </a>
+          <div class="metadatos-proyecto"><div><h3>Publicaciones sobre el patrimonio de La Paz</h3><p>Diseño editorial, diagramación y fotografía · 2010–2019</p></div><span>↗</span></div>
+          <p class="descripcion-proyecto">Diseño, diagramación y fotografía de 13 libros sobre patrimonio cultural, historia urbana, gastronomía, transporte y barrios paceños entre otros.</p>
+        </article>
+        <article class="tarjeta-proyecto" data-category="infografia marca">
+          <a class="imagen-proyecto imagen-museo" href="#proyecto-2" data-project-modal="1" aria-haspopup="dialog" aria-label="Leer reseña del museo arqueológico a cielo abierto">
+            <img src="imagenes/Arqueologia_espacio2.webp" alt="Arquitectura de piedra, imagen referencial" loading="lazy">
+            <span class="imagen-indice">02 / MUSEOGRAFÍA</span><span class="imagen-nota">Diseño e interpretación</span>
+            <span class="titulo-imagen">Arqueología<br><em>en el espacio.</em></span>
+          </a>
+          <div class="metadatos-proyecto"><div><h3>Museo arqueológico a cielo abierto</h3><p>Plaza Tejada Sorzano · 2020–2021</p></div><span>↗</span></div>
+          <p class="descripcion-proyecto">Infografías, señalética, publicación digital, diseño web, fotografía.</p>
+        </article>
+        <article class="tarjeta-proyecto" data-category="visual patrimonio">
+          <a class="imagen-proyecto imagen-noche" href="#proyecto-3" data-project-modal="2" aria-haspopup="dialog" aria-label="Leer reseña de Una Noche en el Cementerio">
+            <img src="imagenes/Noche_cementerio.webp" alt="Arquitectura histórica al atardecer, imagen referencial" loading="lazy">
+            <span class="imagen-indice">03 / IDENTIDAD Y EVENTO</span><span class="imagen-nota">Historia y tradición</span>
+            <span class="titulo-imagen">Una noche<br><em>en el cementerio.</em></span>
+          </a>
+          <div class="metadatos-proyecto"><div><h3>Una Noche en el Cementerio</h3><p>Línea gráfica, señalización y producción audiovisual · 2010–2020</p></div><span>↗</span></div>
+          <p class="descripcion-proyecto">Diseño y diagramación, comunicación visual del evento, planificación del recorrido cultural, cobertura fotográfica y producción audiovisual.</p>
+        </article>
+        <article class="tarjeta-proyecto" data-category="visual patrimonio">
+          <a class="imagen-proyecto imagen-urbana" href="#proyecto-4" data-project-modal="3" aria-haspopup="dialog" aria-label="Leer reseña del manual de publicidad urbana">
+            <img src="imagenes/Ilustración.webp" alt="Vista urbana y edificios, imagen referencial" loading="lazy">
+            <span class="imagen-indice">04 / SISTEMA VISUAL</span><span class="imagen-nota">Imagen referencial</span>
+            <span class="titulo-imagen">ilustración<br><em>y  color.</em></span>
+          </a>
+          <div class="metadatos-proyecto"><div><h3>Compialción de algunas ilustraciones</h3><p>La Paz · 2017-2025</p></div><span>↗</span></div>
+          <p class="descripcion-proyecto">Dibujos de diferentes temáticas que indagan en el uso de color y el manejo de la forma.</p>
+        </article>
+        <article class="tarjeta-proyecto" data-category="editorial docencia">
+          <a class="imagen-proyecto imagen-fundamentos" href="#proyecto-5" data-project-modal="4" aria-haspopup="dialog" aria-label="Leer reseña del libro Fundamentos de Diseño">
+            <img src="imagenes/Fundamentos_diseño.webp" alt="Cuaderno de trabajo y escritura, imagen referencial" loading="lazy">
+            <span class="imagen-indice">05 / DISEÑO Y DOCENCIA</span><span class="imagen-nota">Bases del diseño gráfico</span>
+            <span class="titulo-imagen">Fundamentos<br><em>de diseño.</em></span>
+          </a>
+          <div class="metadatos-proyecto"><div><h3>Fundamentos de Diseño</h3><p>Diseño, diagramación, compilación y redacción · 2024</p></div><span>↗</span></div>
+          <p class="descripcion-proyecto">Publicación académica desarrollada para la Carrera de Diseño Gráfico del Instituto Técnico Superior ATENEA.</p>
+        </article>
+      </div>
+      <p class="enlace-todos-proyectos"><a class="enlace-texto" href="trabajo.html">Ver todos los proyectos <span>→</span></a></p>
+      <p class="nota-pie-seccion">Las imágenes son recursos de referencia para definir la dirección visual. No representan necesariamente los proyectos originales.</p>
+    </section>
+    <!-- FOOTER VISUAL: imagen panorámica a todo el ancho -->
+    <section class="panorama-pie-pagina" aria-label="Cierre visual del portafolio">
+      <img src="imagenes/Footer2.webp" alt="Composición arquitectónica panorámica, imagen referencial" loading="lazy">
+      <div class="velo-panorama-pie"></div>
+      <div class="contenido-panorama-pie">
+        <p class="antetitulo">Diseño · Espacio · Imagen</p>
+        <h2>Las ideas también<br><em>construyen memoria.</em></h2>
+        <a href="contacto.html" class="enlace-portada"><span>Hablemos de tu proyecto</span><b>↗</b></a>
+      </div>
+      <span class="pie-foto-pie-pagina">Tuni Condoriri · La Paz / Bolivia (PH:YAMM)</span>
+    </section>
+    <section class="seccion-contacto" id="contacto">
+      <div class="acerca-contacto"><p class="antetitulo">El diseñador</p><h3>Diseño con intención.</h3><p>Proyectos editoriales, comunicación visual, fotografía y cultura. Una mirada transversal que parte de observar y comprender el contexto.</p><a href="perfil.html" class="enlace-texto">Más sobre mí <span>→</span></a></div>
+      <div class="llamada-contacto"><p class="antetitulo">Conversemos</p><h3>¿Tienes un proyecto en mente?</h3><p>Para colaboraciones, consultas profesionales o proyectos culturales, puedes escribirme directamente.</p><a class="boton-contacto" href="mailto:yalan.mendoza@gmail.com">Escríbeme <span>↗</span></a><div class="enlaces-sociales" aria-label="Redes sociales">
+  <a href="https://www.facebook.com/ys198113" target="_blank" rel="noreferrer" aria-label="Facebook">Facebook <span aria-hidden="true">↗</span></a>
+  <a href="https://www.instagram.com/ysraelalan/" target="_blank" rel="noreferrer" aria-label="Instagram">Instagram <span aria-hidden="true">↗</span></a>
+  <a href="https://www.tiktok.com/@ysraelalan" target="_blank" rel="noreferrer" aria-label="TikTok">TikTok <span aria-hidden="true">↗</span></a>
+  <a href="https://www.behance.net/ysraelmendoza" target="_blank" rel="noreferrer" aria-label="Behance">Behance <span aria-hidden="true">↗</span></a>
+</div></div>
+    </section>
+    <nav class="migas-pan" aria-label="Miga de pan">
+    <a href="index.html">Inicio</a><span aria-hidden="true">/</span><span aria-current="page">Inicio</span>
+  </nav>
+    <footer class="pie-pagina"><a class="logotipo-pie-pagina" href="index.html" aria-label="Ysrael Alan Mendoza Maldonado, inicio"><img src="logo-ysrael-blanco.svg" alt="Ysrael Alan Mendoza Maldonado"></a><span>© <span id="current-year">2026</span> · La Paz, Bolivia</span><nav aria-label="Enlaces del pie de página"><a href="trabajo.html">Trabajo</a><a href="galeria.html">Galería</a><a href="perfil.html">Perfil</a><a href="trayectoria.html">Trayectoria</a><a href="contacto.html">Contacto</a></nav><a href="#inicio">Volver arriba ↑</a></footer>
+
+    <div class="ventana-resena-proyecto" id="project-review-modal" hidden aria-hidden="true">
+      <button class="fondo-resena-proyecto" type="button" data-review-close aria-label="Cerrar reseña"></button>
+      <section class="panel-resena-proyecto" role="dialog" aria-modal="true" aria-labelledby="review-title" aria-describedby="review-body" tabindex="-1">
+        <button class="cerrar-resena-proyecto" type="button" data-review-close aria-label="Cerrar ventana">×</button>
+        <div class="galeria-resena-proyecto" aria-label="Galería de imágenes del proyecto">
+          <div class="foto-resena-proyecto" role="img" aria-label="Imagen 1 del proyecto"></div>
+          <button class="control-galeria-resena anterior-galeria-resena" type="button" aria-label="Imagen anterior">‹</button>
+          <button class="control-galeria-resena siguiente-galeria-resena" type="button" aria-label="Imagen siguiente">›</button>
+          <div class="contador-galeria-resena" aria-live="polite">01 / 06</div>
+          <div class="indicadores-galeria-resena" aria-label="Elegir imagen"></div>
+        </div>
+        <article class="papel-resena-proyecto">
+          <p class="antetitulo-resena-proyecto" id="review-kicker">RESEÑA DE PROYECTO · 01</p>
+          <h2 id="review-title">Memoria impresa</h2>
+          <p class="subtitulo-resena-proyecto" id="review-subtitle"></p>
+          <div class="linea-resena-proyecto"></div>
+          <p id="review-body"></p>
+          <div class="base-resena-proyecto"><span id="review-year"></span><span class="estrella-resena" aria-hidden="true">✦</span></div>
+        </article>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

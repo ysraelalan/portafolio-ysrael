@@ -1,0 +1,15 @@
+PORTAFOLIO DE YSRAEL MENDOZA MALDONADO
+
+La sección Trabajo presenta las diez especialidades profesionales: Diseño gráfico, Diseño editorial, Infografía, Diseño web, Diseño tipográfico, Diseño de marca, Ilustración, Fotografía, Edición de video y Sistemas de impresión.
+
+Archivos principales:
+- index.html: portada y resumen de especialidades.
+- trabajo.html: tarjetas y filtros de especialidades.
+- galeria.html: galería visual.
+- perfil.html: perfil profesional.
+- trayectoria.html: experiencia y formación.
+- contacto.html: formulario y datos de contacto.
+- styles.css: estilos y diseño adaptable.
+- script.js: menú, filtros, galerías y ventanas emergentes.
+
+Las imágenes marcadas como referenciales deben sustituirse por material original antes de publicar.
